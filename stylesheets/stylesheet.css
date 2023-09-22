@@ -4,6 +4,8 @@
     padding: 10px;
     display: flex;
     position: relative;
+    padding-top: 150px;
+
 }
 
 .card-sedan {
@@ -77,14 +79,12 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
 
     .center {
         display: block;
         margin: auto;
         width: 70%;
+        padding-top: 50px;
 
     }
 
