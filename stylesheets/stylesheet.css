@@ -8,25 +8,25 @@
 
 .card-sedan {
     background-color: hsl(31, 77%, 52%);
-    width: 375px;
-    height: 500px;
+    width: 275px;
+    height: 450px;
     border-radius: 12px 0px 0px 12px;
-    padding: 30px;
+    padding: 53px;
 }
 
 .card-luxury {
     background-color: hsl(179, 100%, 13%);
-    width: 375px;
-    height: 500px;
+    width: 275px;
+    height: 450px;
     border-radius: 0px 12px 12px 0px;
-    padding: 30px;
+    padding: 53px;
 }
 
 .card-suvs {
     background-color: hsl(184, 100%, 22%);
-    width: 375px;
-    height: 500px;
-    padding: 30px;
+    width: 275px;
+    height: 450px;
+    padding: 53px;
 
 }
 
@@ -34,7 +34,7 @@
     padding: 50px;
 }
 
-.button {
+button {
     position: absolute;
     bottom: 50px;
     background-color: white;
@@ -43,18 +43,37 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0px 4px 2px 0px;
     width: 150px;
     border-radius: 64px;
+    color: var(--color);
+    font-family: "Lexend Deca", sans-serif;
+}
+button:hover {
+    border: 3px solid white;
+    color: white;
+    background-color: var(--color);
+    cursor: pointer;
+    
 }
 
 h1 {
     font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+
 }
 
 p {
     font-size: 15px;
-    font-family: "exend Deca", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    line-height: 1.8;
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,26 +85,28 @@ p {
         display: block;
         margin: auto;
         width: 70%;
-        border: 1px solid green;
 
     }
 
     .card-sedan {
         background-color: hsl(31, 77%, 52%);
-        width: 75%;
+        width: 60%;
         border-radius: 12px 12px 0px 0px;
+        height: 400px;
 
     }
 
     .card-luxury {
         background-color: hsl(179, 100%, 13%);
-        width: 75%;
+        width: 60%;
         border-radius: 0px 0px 12px 12px;
+        height: 400px;
     }
 
     .card-suvs {
         background-color: hsl(184, 100%, 22%);
-        width: 75%;
+        width: 60%;
+        height: 400px;
 
     }
 
